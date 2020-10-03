@@ -7,6 +7,11 @@ UNO: PORTD, available pins 0-7 (D0-D7)
 Leonardo: PORTB, available pins 4-7 (D8-D11)
 e.g.
 #define DSHOT_PORT PORTD
+
+1-5: beep (1= low freq. 5 = high freq.)
+7: rotate in one direction
+8: rotate in the other direction
+
 */
 DShot esc1;
 
